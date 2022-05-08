@@ -1,0 +1,145 @@
+:root {
+  --main-color: #fcc419;
+  --gray: #212529;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: var(--gray);
+  overflow-x: hidden;
+}
+
+.py-12 {
+  padding: 12rem 0;
+}
+
+.my-12 {
+  margin: 12rem 0;
+}
+
+.btn-outline-primary {
+  padding: 1.6rem 3.2rem;
+  border-radius: 0;
+  border: 2px solid var(--gray);
+  border-bottom: 4px solid var(--gray);
+  color: var(--gray);
+  background-color: var(--main-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--main-color);
+  color: var(--gray);
+  border: 2px solid var(--gray);
+  border-bottom: 8px solid var(--gray);
+}
+
+.navbar {
+  border-bottom: 3px solid var(--gray);
+  transition: all 0.5s;
+  background-color: var(--main-color);
+}
+
+.navbar:hover {
+  border-bottom: 9px solid var(--gray);
+}
+
+.logo {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+
+.hero {
+  border-bottom: 3px solid var(--gray);
+}
+
+.hero__left {
+  border-right: 2px solid var(--gray);
+}
+
+.hero__right {
+}
+
+.hero__title {
+  font-size: 6rem;
+  margin-bottom: 4.8rem;
+  padding-bottom: 4.8rem;
+  border-bottom: 2px solid var(--gray);
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.hero__description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.hero__image {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.skills {
+
+}
+
+.skills__header {
+  margin-top: 7.2rem;
+  margin-bottom: 6rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+  font-size: 4.8rem;
+}
+
+.skills__grid {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.skills__top-row {
+  border-top: 2px solid var(--gray);
+  height: 50rem;
+}
+
+.skills__bottom-row {
+  border-top: 2px solid var(--gray);
+  height: 50rem;
+}
+
+.skills__top-left {
+  border-right: 2px solid var(--gray);
+}
+
+.skills__top-right {
+}
+
+.skills__bottom-left {
+  border-right: 2px solid var(--gray);
+}
+
+.skills__bottom-right {
+}
+
+.skills__illustration {
+  width: 20rem;
+  height: 20rem;
+  margin: 3.6rem 2.4rem;
+}
