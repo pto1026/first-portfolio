@@ -118,12 +118,10 @@ body {
 
 .skills__top-row {
   border-top: 2px solid var(--gray);
-  height: 50rem;
 }
 
 .skills__bottom-row {
   border-top: 2px solid var(--gray);
-  height: 50rem;
 }
 
 .skills__top-left {
@@ -144,11 +142,13 @@ body {
   width: 20rem;
   height: 20rem;
   margin: 3.6rem 2.4rem;
+  margin-bottom: 6.4rem;
 }
 
 .skills__title {
   font-size: 3.6rem;
   margin-bottom: 2rem;
+  letter-spacing: -1px;
 }
 
 .skills__description {
