@@ -10,6 +10,12 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="./style.css" rel="stylesheet" />
     <title>First Porfolio</title>
   </head>
@@ -29,9 +35,9 @@
         <div class="hero__left col-12 col-md-6 px-5 my-5">
           <h1 class="hero__title my-12 mx-5">Discover your next developer</h1>
           <p class="hero__description mx-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            impedit sint magni quos eos nostrum velit repellat sit nulla beatae
-            odit ratione quae.
+            A fullstack developer with skills across the entire front end web
+            stack as well as multiple back end technologies. MERN, React, SQL,
+            Java, Python, and more...
           </p>
           <a class="btn btn-outline-primary mx-5">Get in touch</a>
         </div>
@@ -53,43 +59,94 @@
       <div class="row">
         <div class="skills__grid col">
           <div class="skills__top-row row">
-            <div class="skills__top-left col-xs-12 col-md-6 d-flex flex-column pb-5">
+            <div
+              class="skills__top-left col-xs-12 col-md-6 d-flex flex-column pb-5"
+            >
               <img
                 src="icons/static.svg"
                 alt="Static files illustration"
                 class="skills__illustration"
               />
-              <h4 class="skills__title mt-auto">Front End Web Stack</h4>
-              <p class="skills__description mb-5">
+              <h4 class="skills__title mt-auto ms-3">Front End Web Stack</h4>
+              <p class="skills__description mb-5 ms-3">
                 Well versed in the entire front end web stack. Including modern
                 and semantic HTML, advanced CSS, and Javascript. I go the extra
                 mile.
               </p>
             </div>
-            <div class="skills__top-right col-xs-12 col-md-6 d-flex flex-column pb-5">
+            <div
+              class="skills__top-right col-xs-12 col-md-6 d-flex flex-column pb-5"
+            >
               <img
                 src="icons/react.svg"
                 alt="React illustration"
                 class="skills__illustration"
               />
+              <h4 class="skills__title mt-auto ms-3">JavaScript Frameworks</h4>
+              <p class="skills__description mb-5 ms-3">
+                Familiar and proficient with multiple front-end frameworks and
+                libraries. My favorite is React, but I am also working on Vue. I
+                have learned TypeScript as well.
+              </p>
             </div>
           </div>
           <div class="skills__bottom-row row">
-            <div class="skills__bottom-left col-xs-12 col-md-6 d-flex flex-column pb-5">
+            <div
+              class="skills__bottom-left col-xs-12 col-md-6 d-flex flex-column pb-5"
+            >
               <img
                 src="icons/web_developer.svg"
                 alt="Web developer illustration"
                 class="skills__illustration"
               />
+              <h4 class="skills__title mt-auto ms-3">
+                Node.js, Express.js, MongoDB
+              </h4>
+              <p class="skills__description mb-5 ms-3">
+                My primary backend stack is MongoDB for the model/data layer,
+                Node/Express for the controller/business logic layer, and React
+                for the view layer.
+              </p>
             </div>
-            <div class="skills__bottom-right col-xs-12 col-md-6 d-flex flex-column pb-5">
+            <div
+              class="skills__bottom-right col-xs-12 col-md-6 d-flex flex-column pb-5"
+            >
               <img
                 src="icons/backend.svg"
                 alt="Backend illustration"
                 class="skills__illustration"
               />
+              <h4 class="skills__title mt-auto ms-3">Backend Stacks</h4>
+              <p class="skills__description mb-5 ms-3">
+                On top of a complete MERN stack, I also have experience with
+                multiple different backend technologies. These include SQL,
+                Python, Java (and Kotlin).
+              </p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects container-fluid">
+      <div class="row">
+        <div class="projects__image col-12 col-md-6 position-relative">
+          <span class="projects__label position-absolute"
+            >Prestige Services</span
+          >
+          <a
+            href="https://nextjs-prestige-services-template.vercel.app/"
+            class="projects__link"
+          >
+            <img src="imgs/nextjs-template.png" alt="Prestige Services" />
+          </a>
+        </div>
+        <div class="projects__image col-12 col-md-6 position-relative">
+          <span class="projects__label position-absolute"
+            >Elite Services</span
+          >
+          <a href="https://elite-template.vercel.app/" class="projects__link">
+            <img src="imgs/elite-template.png" alt="Elite Services" />
+          </a>
         </div>
       </div>
     </section>

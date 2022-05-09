@@ -15,8 +15,7 @@ html {
 }
 
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Oswald", sans-serif;
   color: var(--gray);
   /* overflow-x: hidden; */
 }
@@ -60,9 +59,9 @@ body {
 }
 
 .logo {
-    width: 6.4rem;
-    height: 6.4rem;
-  }
+  width: 6.4rem;
+  height: 6.4rem;
+}
 
 .hero {
   border-bottom: 3px solid var(--gray);
@@ -73,6 +72,8 @@ body {
 }
 
 .hero__right {
+  display: flex;
+  align-items: center;
 }
 
 .hero__title {
@@ -98,7 +99,6 @@ body {
 }
 
 .skills {
-
 }
 
 .skills__header {
@@ -144,4 +144,54 @@ body {
   width: 20rem;
   height: 20rem;
   margin: 3.6rem 2.4rem;
+}
+
+.skills__title {
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+}
+
+.skills__description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.projects {
+
+}
+
+.projects__image {
+}
+
+.projects__link {
+}
+
+.projects__image img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  filter: grayscale(1);
+  transition: all 0.4s;
+}
+.projects__image img:hover {
+  filter: grayscale(0);
+}
+
+.projects__image:hover > .projects__label {
+  visibility: visible;
+  transform: scale(1);
+}
+
+.projects__label {
+  bottom: 2rem;
+  display: inline-block;
+  left: 4rem;
+  z-index: 1;
+  visibility: hidden;
+  background-color: var(--main-color);
+  padding: 1.2rem 2.4rem;
+  transition: all 0.4s;
+  transform: scale(0.4);
+  font-size: 1.8rem;
+  font-weight: 500;
 }
